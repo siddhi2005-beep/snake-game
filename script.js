@@ -21,7 +21,7 @@ function initGame() {
     document.getElementById('user-score').innerText = score;
 
     // Start the game loop
-    gameInterval = setInterval(gameLoop, 100);
+    gameInterval = setInterval(gameLoop, 300);
 }
 
 // Game loop that runs at a set interval
